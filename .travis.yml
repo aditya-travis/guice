@@ -32,6 +32,7 @@ before_script:
 script:
   - ${CMD}
 
+
 after_success:
   - util/generate-latest-docs.sh
   - util/compareBuilds.sh
